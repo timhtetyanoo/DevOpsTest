@@ -1,5 +1,5 @@
 import azure.functions as func
-from function_app import http_trigger
+from ..function_app import http_trigger
 
 
 def test_http_trigger_with_query_param():
